@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 # ── 1. Env + keys ──────────────────────────────────────────────────────────
 load_dotenv()
-os.environ["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"] = os.getenv("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", "")
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "")
 
 # ── 2. Choose the right imports for your LangChain version ─────────────────
 try:
