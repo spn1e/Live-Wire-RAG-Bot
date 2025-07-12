@@ -1,0 +1,21 @@
+# Core RAG + embeddings
+langchain
+llama-index
+sentence-transformers
+faiss-cpu
+
+# Live-data streaming (can add Kafka/Flink later)
+confluent-kafka
+apache-flink
+
+# Web interface
+streamlit
+
+# Observability / evaluation
+langsmith
+
+# OpenAI or compatible LLMs
+openai
+
+requests
+
