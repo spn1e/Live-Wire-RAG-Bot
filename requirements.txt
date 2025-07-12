@@ -15,7 +15,10 @@ streamlit
 langsmith
 
 # OpenAI or compatible LLMs
-openai
+openai>=1.3.5
+google-generativeai>=0.4.3
+langchain-google-genai>=0.0.9
+
 
 requests
 
