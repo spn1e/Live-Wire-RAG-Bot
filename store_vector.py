@@ -53,6 +53,7 @@ embed = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2
 
 # 4 ── Build the FAISS index ---------------------------------------------------
 index = FAISS.from_texts(sentences, embed)
-index.save_local("faiss_index")
+index.save_local("faiss_index", safe_serialization=True)
+
 print("[INFO] Saved FAISS index to ./faiss_index")
 
