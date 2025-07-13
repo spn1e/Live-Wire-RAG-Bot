@@ -1,6 +1,5 @@
 # Don’t track secrets or generated data
 .env
 live_data.json
-faiss_index/
 __pycache__/
 .streamlit/
