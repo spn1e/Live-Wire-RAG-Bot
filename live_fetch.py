@@ -1,4 +1,4 @@
-%%writefile live_fetch.py
+
 """
 live_fetch.py
 -------------
