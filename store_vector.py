@@ -1,4 +1,4 @@
-%%writefile store_vector.py
+
 """
 store_vector.py
 ---------------
